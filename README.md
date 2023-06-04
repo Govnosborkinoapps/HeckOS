@@ -1,6 +1,6 @@
 ЧООООООО ЭТА ДЕ НОВАЯ ХЕК ОС ДЛЯ СЛАБЫХ  ОПЕН КАМПУТИРС
 КАЧАЙ ПО КАМАНДИ: 
-wget -f https://raw.githubusercontent.com/Govnosborkinoapps/HeckOS/master/Installer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
+	wget -f https://raw.githubusercontent.com/Govnosborkinoapps/HeckOS/master/Installer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
 
 -   Multitasking
 -   Double buffered graphical user interface
