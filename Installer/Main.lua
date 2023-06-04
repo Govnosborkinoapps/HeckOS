@@ -17,7 +17,7 @@ local repositoryURL = "https://raw.githubusercontent.com/Govnosborkinoapps/HeckO
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
-local installerPath = "/MineOS installer/"
+local installerPath = "/HeckOS installer/"
 local installerPicturesPath = installerPath .. "Installer/Pictures/"
 local OSPath = "/"
 
@@ -38,7 +38,7 @@ end
 
 local function title()
 	local y = math.floor(screenHeight / 2 - 1)
-	centrizedText(y, 0x2D2D2D, "MineOS")
+	centrizedText(y, 0x2D2D2D, "HeckOS")
 
 	return y + 2
 end
