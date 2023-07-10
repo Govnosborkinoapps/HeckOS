@@ -3,7 +3,7 @@
 	password = "ЧОООО ПАРОЛЬ???",
 	submitPassword = "ЕЩЕ ПАРОЛЬ? ДА ВЫ АХУЕЛИ",
 	passwordsArentEqual = "Пароль хуйня",
-	usernameInvalid = "имя юзера "Трансгендер2007" ",
+	usernameInvalid = ":( на вашем пк возникла проблема и его необходимо перезапустить",
 	withoutPassword = "Не правда:",
 	wallpapers = "горячие пирожки:",
 	screensavers = "Скрин СавЕлия:",
