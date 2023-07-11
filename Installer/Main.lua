@@ -537,7 +537,7 @@ addStage(function()
 
 	-- Renaming if possible
 	if not selectedFilesystemProxy.getLabel() then
-		selectedFilesystemProxy.setLabel("MineOS HDD")
+		selectedFilesystemProxy.setLabel("HeckOS HDD")
 	end
 
 	local function switchProxy(runnable)
@@ -651,7 +651,7 @@ addStage(function()
 	workspace:draw()
 	
 	component.invoke(EEPROMAddress, "set", request(EFIURL))
-	component.invoke(EEPROMAddress, "setLabel", "MineOS EFI")
+	component.invoke(EEPROMAddress, "setLabel", "HeckOS EFI")
 	component.invoke(EEPROMAddress, "setData", selectedFilesystemProxy.address)
 
 
