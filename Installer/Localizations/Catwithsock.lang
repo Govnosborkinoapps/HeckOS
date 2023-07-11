@@ -1,0 +1,23 @@
+{
+	username = "CatName",
+	password = "Enter ur pass",
+	submitPassword = "enter ur pass again",
+	passwordsArentEqual = "Passwords are not the for cats. Try Again.",
+	usernameInvalid = "Username is shit",
+	withoutPassword = "Password use:",
+	wallpapers = "porn:",
+	screensavers = "Screensave:",
+	applications = "Third party apps:",
+	languages = "LangPacks:",
+	accept = "I accept:",
+	select = "Select disk",
+	erase = "Erase",
+	used = "used cats:",
+	setup = "Setup your profile",
+	customize = "Customize downloads",
+	flashing = "Flashing EEPROM...",
+	creating = "Creating user profile...",
+	installing = "Installing",
+	installed = "MineOS install is falied (OS.lua copy failed). Press "Continue without OS.lua" ",
+	reboot = "Continue without OS.lua"
+}
