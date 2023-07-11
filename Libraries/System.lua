@@ -2612,7 +2612,7 @@ function system.updateDesktop()
 		contextMenu:addItem(localization.emptyTrash).onTouch = function()
 			local container = GUI.addBackgroundContainer(workspace, true, true, localization.areYouSure)
 
-			container.layout:addChild(GUI.button(1, 1, 30, 1, 0xE1E1E1, 0x2D2D2D, 0xA5A5A5, 0x2D2D2D, "OK")).onTouch = function()
+			container.layout:addChild(GUI.button(1, 1, 30, 1, 0xE1E1E1, 0x2D2D2D, 0xA5A5A5, 0x2D2D2D, "Да")).onTouch = function()
 				local list = filesystem.list(paths.user.trash)
 				
 				for i = 1, #list do
@@ -2662,17 +2662,17 @@ function system.updateDesktop()
 
 	desktopMenu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0x0, 0x696969, 0x3366CC, 0xFFFFFF))
 	
-	desktopMenuMineOSItem = desktopMenu:addContextMenuItem("MineOS", 0x000000)
+	desktopMenuMineOSItem = desktopMenu:addContextMenuItem("HeckOS", 0x000000)
 	
 	desktopMenuMineOSItem:addItem(localization.aboutSystem).onTouch = function()
 		local container = GUI.addBackgroundContainer(workspace, true, true, localization.aboutSystem)
 		container.layout:removeChildren()
 		
 		local lines = {
-			"MineOS",
-			"Copyright © 2014-" .. os.date("%Y", system.getTime()),
+			"HeckOS",
+			"Copyright © 2014-infinite",
 			" ",
-			"Developers:",
+			"MineOS Developers:",
 			" ",
 			"Igor Timofeev, vk.com/id7799889",
 			"Gleb Trifonov, vk.com/id88323331",
@@ -2696,11 +2696,16 @@ function system.updateDesktop()
 			"Ruslan Isaev, vk.com/id181265169",
 			"Eugene8388608, vk.com/id287247631",
 			" ",
-			"Translators:",
+			"Mine OS Translators:",
 			" ",
 			"06Games, github.com/06Games",
 			"Xenia Mazneva, vk.com/id5564402",
 			"Yana Dmitrieva, vk.com/id155326634",
+            "",
+             "HeckOS and making translate for it:",
+             "",
+			"Michael Amd, vk.com/greenfred1",
+			"Plush Persik, github.com/PlushPersik"
 		}
 
 		local textBox = container.layout:addChild(GUI.textBox(1, 1, container.layout.width, #lines, nil, 0xB4B4B4, lines, 1, 0, 0))
@@ -2759,7 +2764,7 @@ function system.updateDesktop()
 
 	local RAMWidget, RAMPercent = system.addMenuWidget(system.menuWidget(16))
 	RAMWidget.drawContent = function()
-		local text = "RAM: " .. math.ceil(RAMPercent * 100) .. "% "
+		local text = "Operativka: " .. math.ceil(RAMPercent * 100) .. "kot "
 		local barWidth = RAMWidget.width - #text
 		local activeWidth = math.ceil(RAMPercent * barWidth)
 
@@ -2782,7 +2787,7 @@ function system.updateDesktop()
 			batteryWidgetPercent = 1
 		end
 		
-		batteryWidgetText = math.ceil(batteryWidgetPercent * 100) .. "% "
+		batteryWidgetText = math.ceil(batteryWidgetPercent * 200) .. "% "
 		batteryWidget.width = #batteryWidgetText + 4
 
 		local totalMemory = computer.totalMemory()
