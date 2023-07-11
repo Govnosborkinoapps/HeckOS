@@ -1,0 +1,23 @@
+{
+	username = "ЧО КАКОЕ ИМЯ",
+	password = "Пороль",
+	submitPassword = "Пидар",
+	passwordsArentEqual = "хуисас",
+	usernameInvalid = "ти чо ахуел",
+	withoutPassword = "пидар:",
+	wallpapers = "хуи:",
+	screensavers = "носки:",
+	applications = "догатки",
+	languages = "Пакети підтримки мов:",
+	accept = "я отказываюсь:",
+	select = "Выберите носитель",
+	erase = "Стереть нахуй",
+	used = "сломано",
+	setup = "Создание профиля",
+	customize = "хуй",
+	flashing = "Ломаем еепром...",
+	creating = "Создание раздела с OpenOS...",
+	installing = "Установка",
+	installed = "MineOS не установлена, пошел нахуй!",
+	reboot = "Запуск без init.lua"
+}
